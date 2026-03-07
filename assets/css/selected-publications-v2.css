@@ -1,0 +1,139 @@
+.selected-publications {
+  margin-top: 6px;
+}
+
+.selected-pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin: 18px 0 28px;
+}
+
+.selected-pub-image-wrap {
+  position: relative;
+  flex: 0 0 220px;
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+}
+
+.selected-pub-image {
+  display: block;
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+}
+
+.selected-pub-badge {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  background: #102f5c;
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.selected-pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.selected-pub-title {
+  margin: 0 0 8px;
+  font-size: 1.14rem;
+  line-height: 1.32;
+}
+
+.selected-pub-title a {
+  color: #2f8cc3;
+  font-weight: 700;
+}
+
+.selected-pub-authors {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.selected-pub-venue {
+  margin: 0 0 10px;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.selected-pub-links {
+  margin: 0 0 8px;
+}
+
+.selected-pub-btn {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 4px 11px;
+  border: 1.5px solid #222;
+  color: #222 !important;
+  background: #fff;
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.selected-pub-btn:hover {
+  background: #222;
+  color: #fff !important;
+}
+
+.selected-pub-note {
+  margin: 0;
+  color: #e74d3c;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .selected-pub-image-wrap {
+    background: #1e2128;
+    border-color: #3a3f4a;
+  }
+
+  .selected-pub-badge {
+    background: #195895;
+  }
+
+  .selected-pub-btn {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff !important;
+  }
+
+  .selected-pub-btn:hover {
+    background: #ffffff;
+    color: #111 !important;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  .selected-pub-item {
+    flex-direction: column;
+    gap: 12px;
+    margin: 14px 0 22px;
+  }
+
+  .selected-pub-image-wrap {
+    width: 100%;
+    max-width: 260px;
+    flex-basis: auto;
+  }
+
+  .selected-pub-image {
+    height: auto;
+  }
+}
