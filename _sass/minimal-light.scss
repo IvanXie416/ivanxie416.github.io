@@ -304,7 +304,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  background: #7C2E9A;
+  background: #5A1775;
   z-index: 1000;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
 }
@@ -338,6 +338,11 @@ html {
 }
 
 .top-navbar a:hover {
+  color: #f6e8ff !important;
+  border-bottom-color: #f6e8ff;
+}
+
+.top-navbar a.active {
   color: #f6e8ff !important;
   border-bottom-color: #f6e8ff;
 }

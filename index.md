@@ -32,19 +32,4 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
 - **[2024.12]** Our paper **PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis** is accepted by **[AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)** (CCF-A).
 - **[2024.10]** Our paper **Generative Technology for Human Emotion Recognition: A Scoping Review** is accepted by **[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)** (IF=14.8).
 
-{% include_relative _includes/publications.md %}
-
 {% include_relative _includes/services.md %}
-
-## Experiments and Awards
-
-### Internships
-
-- *2025.06 - 2025.10*, [X Square Robot](https://www.x2robot.com/en).
-- *2023.12 - 2024.09*, [Guangming Lab](https://www.gml.ac.cn/).
-
-### Awards
-
-- *2025.06* Outstanding Master's Thesis of Xi'an Jiaotong University
-- *2024.10* National Scholarship (Top 1%)
-- *2023.10* Xi'an Jiaotong University Postgraduate Academic Scholarship

@@ -39,8 +39,9 @@
     <nav class="top-navbar" aria-label="Main navigation">
       <div class="top-navbar-inner">
         <div class="top-navbar-links">
-          <a href="{{ '/#publications' | relative_url }}">Publications</a>
-          <a href="{{ '/#experiments-and-awards' | relative_url }}">Experiments and Awards</a>
+          <a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+          <a class="{% if page.url == '/publications/' %}active{% endif %}" href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a class="{% if page.url == '/awards/' %}active{% endif %}" href="{{ '/awards/' | relative_url }}">Experiments and Awards</a>
         </div>
       </div>
     </nav>
