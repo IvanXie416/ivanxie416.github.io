@@ -6,7 +6,7 @@ permalink: /publications/
 ## Publications
 
 <blockquote style="margin: 0.4em 0 1em 0; padding: 0 0 0 12px; font-size: 1.05rem; line-height: 1.35;">
-(\*: equal contribution, <sup>#</sup>: corresponding author)
+(*: equal contribution, <sup>#</sup>: corresponding author)
 </blockquote>
 
 ## 2025
