@@ -8,7 +8,7 @@ permalink: /awards/
 ### Internships
 - *2025.12 - now*, [ByteDance](https://www.bytedance.com/en/).
 - *2025.06 - 2025.11*, [X Square Robot](https://www.x2robot.com/en).
-- *2023.12 - 2024.09*, [Guangming Lab](https://www.gml.ac.cn/).
+- *2023.12 - 2024.12*, [Guangming Lab](https://www.gml.ac.cn/).
 
 ### Awards
 
