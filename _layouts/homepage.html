@@ -123,6 +123,45 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var links = document.querySelectorAll('a[href]');
+
+        links.forEach(function (link) {
+          var href = link.getAttribute('href');
+          if (!href) return;
+
+          // Keep on-page anchors, local paths, and non-http schemes unchanged.
+          if (
+            href.startsWith('#') ||
+            href.startsWith('/') ||
+            href.startsWith('mailto:') ||
+            href.startsWith('tel:') ||
+            href.startsWith('javascript:')
+          ) {
+            return;
+          }
+
+          try {
+            var url = new URL(href, window.location.origin);
+            var isExternal = url.origin !== window.location.origin;
+            if (!isExternal) return;
+
+            link.setAttribute('target', '_blank');
+            var rel = (link.getAttribute('rel') || '').toLowerCase();
+            if (!rel.includes('noopener')) {
+              rel = (rel + ' noopener').trim();
+            }
+            if (!rel.includes('noreferrer')) {
+              rel = (rel + ' noreferrer').trim();
+            }
+            link.setAttribute('rel', rel);
+          } catch (e) {
+            // Ignore malformed URLs.
+          }
+        });
+      });
+    </script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
