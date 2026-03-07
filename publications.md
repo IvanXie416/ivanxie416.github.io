@@ -3,16 +3,102 @@ layout: homepage
 permalink: /publications/
 ---
 
-{% if site.auto_dark_mode %}
-<style>
-  @import url("{{ '/assets/css/style.css' | relative_url }}");
-  @import url("{{ '/assets/css/publications.css' | relative_url }}");
-</style>
-{% else %}
-<style>
-  @import url("{{ '/assets/css/style-no-dark-mode.css' | relative_url }}");
-  @import url("{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}");
-</style>
-{% endif %}
+## Publications
 
-{% include publications.md %}
+> (\*: equal contribution, <sup>#</sup>: corresponding author)
+
+## 2025
+
+[8] [Universal Visuo-Tactile Video Understanding for Embodied Interaction](https://arxiv.org/abs/2505.22566)
+
+**Yifan Xie**, Mingyang Li, Shoujie Li, Xingting Li, Guangyu Chen, Fei Ma, Fei Richard Yu, Wenbo Ding<sup>#</sup>
+
+*The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)*
+
+<br>
+
+[7] [Observation-Graph Interaction and Key-Detail Guidance for Vision and Language Navigation](https://arxiv.org/abs/2503.11006)
+
+**Yifan Xie**, Binkai Ou, Fei Ma, Yaohua Liu<sup>#</sup>
+
+*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
+
+<br>
+
+[6] [GaussianPU: A Hybrid 2D-3D Upsampling Framework for Enhancing Color Point Clouds via 3D Gaussian Splatting](https://arxiv.org/abs/2409.01581)
+
+Zixuan Guo\*, **Yifan Xie\***, Weijing Xie, Peng Huang, Fei Ma<sup>#</sup>, Fei Richard Yu
+
+*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
+
+<br>
+
+[5] [A Review of Human Emotion Synthesis Based on Generative Technology](https://arxiv.org/abs/2412.07116)
+
+Fei Ma\*, **Yifan Xie\***, Yukan Li\*, Ying He, Yi Zhang, Hongwei Ren, Zhou Liu, Wei Yao, Fuji Ren, Fei Richard Yu, Shiguang Ni<sup>#</sup>
+
+*IEEE Transactions on Affective Computing (TAFFC)*
+
+<br>
+
+[4] [Audio-Driven Talking Face Video Generation with Joint Uncertainty Learning](https://arxiv.org/abs/2504.18810)
+
+**Yifan Xie\***, Fei Ma\*, Yi Bin, Ying He, Fei Richard Yu<sup>#</sup>
+
+*ACM International Conference on Multimedia Retrieval (ICMR)*
+
+<br>
+
+[3] [UniSync: A Unified Framework for Audio-Visual Synchronization](https://arxiv.org/abs/2503.16357)
+
+Tao Feng\*, **Yifan Xie\***, Xun Guan, Jiyuan Song, Zhou Liu, Fei Ma<sup>#</sup>, Fei Richard Yu
+
+*IEEE International Conference on Multimedia and Expo (ICME)*
+
+<br>
+
+[2] [CCIS-Diff: A Generative Model with Stable Diffusion Prior for Controlled Colonoscopy Image Synthesis](https://arxiv.org/abs/2411.12198)
+
+**Yifan Xie**, Jingge Wang, Tao Feng, Fei Ma, Yang Li<sup>#</sup>
+
+*IEEE International Symposium on Biomedical Imaging (ISBI)*
+
+<br>
+
+[1] [PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis](https://arxiv.org/abs/2412.08504)
+
+**Yifan Xie**, Tao Feng, Xin Zhang, Xiangyang Luo, Zixuan Guo, Weijiang Yu, Heng Chang, Fei Ma<sup>#</sup>, Fei Richard Yu
+
+*AAAI Conference on Artificial Intelligence (AAAI)*
+
+## 2024
+
+[4] [Generative Technology for Human Emotion Recognition: A Scoping Review](https://www.sciencedirect.com/science/article/pii/S1566253524005311)
+
+Fei Ma\*, Yucheng Yuan\*, **Yifan Xie\***, Hongwei Ren, Ivan Liu, Ying He, Fuji Ren, Fei Richard Yu, Shiguang Ni<sup>#</sup>
+
+*Information Fusion*
+
+<br>
+
+[3] [HECPG: Hyperbolic Embedding and Confident Patch-Guided Network for Point Cloud Matching](https://ieeexplore.ieee.org/abstract/document/10445523)
+
+**Yifan Xie**, Jihua Zhu<sup>#</sup>, Shiqi Li, Naiwen Hu, Pengcheng Shi
+
+*IEEE Transactions on Geoscience and Remote Sensing (TGRS)*
+
+<br>
+
+[2] [Iterative Feedback Network for Unsupervised Point Cloud Registration](https://ieeexplore.ieee.org/abstract/document/10404064)
+
+**Yifan Xie**, Boyu Wang, Shiqi Li, Jihua Zhu<sup>#</sup>
+
+*IEEE Robotics and Automation Letters (RA-L)*
+
+<br>
+
+[1] [Cross-Modal Information-Guided Network Using Contrastive Learning for Point Cloud Registration](https://ieeexplore.ieee.org/abstract/document/10313937)
+
+**Yifan Xie**, Jihua Zhu<sup>#</sup>, Shiqi Li, Pengcheng Shi
+
+*IEEE Robotics and Automation Letters (RA-L)*
