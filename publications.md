@@ -5,7 +5,7 @@ permalink: /publications/
 
 ## Publications
 
-> (\*: equal contribution, <sup>#</sup>: corresponding author)
+* (\*: equal contribution, <sup>#</sup>: corresponding author)
 
 ## 2025
 
