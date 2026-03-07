@@ -17,20 +17,16 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
 
 ## News
 
-<!-- - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
-
-
-- **[2025.09]** Our paper **Universal Visuo-Tactile Video Understanding for Embodied Interaction** is accepted by **[NeurIPS 2025](https://neurips.cc/)** (CCF-A).
-- **[2025.06]** Two papers are accepted by **[IROS 2025](https://iros25.org/)**.
-<!-- - **[2025.06]** I begin my internship at **[X Square Robot](https://www.x2robot.com/)**. -->
-- **[2025.06]** My master's thesis is awarded as the **Outstanding Master's Thesis of Xi'an Jiaotong University**.
-- **[2025.06]** I obtain my master's degree from **Xi'an Jiaotong University**.
-- **[2025.05]** Our paper **A Review of Human Emotion Synthesis Based on Generative Technology** is accepted by **[IEEE Transactions on Affective Computing](https://xplorestaging.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)** (IF=9.6).
-- **[2024.12]** Our paper **PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis** is accepted by **[AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)** (CCF-A).
-- **[2024.10]** Our paper **Generative Technology for Human Emotion Recognition: A Scoping Review** is accepted by **[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)** (IF=14.8).
+<ul class="news-list" data-collapsible="true" data-max-items="5">
+  <li class="news-item"><strong>[2025.09]</strong> Our paper <strong>Universal Visuo-Tactile Video Understanding for Embodied Interaction</strong> is accepted by <strong><a href="https://neurips.cc/">NeurIPS 2025</a></strong> (CCF-A).</li>
+  <li class="news-item"><strong>[2025.06]</strong> Two papers are accepted by <strong><a href="https://iros25.org/">IROS 2025</a></strong>.</li>
+  <li class="news-item"><strong>[2025.06]</strong> My master's thesis is awarded as the <strong>Outstanding Master's Thesis of Xi'an Jiaotong University</strong>.</li>
+  <li class="news-item"><strong>[2025.06]</strong> I obtain my master's degree from <strong>Xi'an Jiaotong University</strong>.</li>
+  <li class="news-item"><strong>[2025.05]</strong> Our paper <strong>A Review of Human Emotion Synthesis Based on Generative Technology</strong> is accepted by <strong><a href="https://xplorestaging.ieee.org/xpl/RecentIssue.jsp?punumber=5165369">IEEE Transactions on Affective Computing</a></strong> (IF=9.6).</li>
+  <li class="news-item"><strong>[2024.12]</strong> Our paper <strong>PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis</strong> is accepted by <strong><a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a></strong> (CCF-A).</li>
+  <li class="news-item"><strong>[2024.10]</strong> Our paper <strong>Generative Technology for Human Emotion Recognition: A Scoping Review</strong> is accepted by <strong><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></strong> (IF=14.8).</li>
+</ul>
+<a class="news-toggle" href="#" aria-expanded="false">Show more</a>
 
 
 ## Selected Publications and Preprints
