@@ -347,6 +347,101 @@ html {
   border-bottom-color: #f6e8ff;
 }
 
+.selected-publications {
+  margin-top: 8px;
+}
+
+.selected-pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 28px 0 38px;
+}
+
+.selected-pub-image-wrap {
+  position: relative;
+  flex: 0 0 270px;
+  max-width: 270px;
+  border-radius: 14px;
+  border: 1px solid #d8d8d8;
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+}
+
+.selected-pub-image {
+  display: block;
+  width: 100%;
+  height: 178px;
+  object-fit: cover;
+}
+
+.selected-pub-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #102f5c;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 8px 14px;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.selected-pub-content {
+  flex: 1;
+}
+
+.selected-pub-title {
+  margin: 0 0 12px;
+  line-height: 1.35;
+}
+
+.selected-pub-title a {
+  color: #2f8cc3;
+  font-weight: 700;
+}
+
+.selected-pub-authors {
+  margin: 0 0 10px;
+  font-size: 1.06rem;
+}
+
+.selected-pub-venue {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+}
+
+.selected-pub-links {
+  margin: 0 0 8px;
+}
+
+.selected-pub-btn {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 6px 14px;
+  border: 2px solid #222;
+  color: #222 !important;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.selected-pub-btn:hover {
+  background: #222;
+  color: #fff !important;
+}
+
+.selected-pub-note {
+  margin: 0;
+  color: #e74d3c;
+  font-size: 1.14rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
 .wrapper {
   width:960px;
   margin:14px auto 0;
@@ -404,6 +499,25 @@ th {
 
   dt {
     color:rgb(62, 183, 240);
+  }
+
+  .selected-pub-image-wrap {
+    background: #1e2128;
+    border-color: #3a3f4a;
+  }
+
+  .selected-pub-badge {
+    background: #195895;
+  }
+
+  .selected-pub-btn {
+    border-color: #ffffff;
+    color: #ffffff !important;
+  }
+
+  .selected-pub-btn:hover {
+    background: #ffffff;
+    color: #111 !important;
   }
 }
 
@@ -560,6 +674,17 @@ footer {
 
   .top-navbar-links {
     gap: 16px;
+  }
+
+  .selected-pub-item {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .selected-pub-image-wrap {
+    width: 100%;
+    max-width: 360px;
+    flex-basis: auto;
   }
 
 
