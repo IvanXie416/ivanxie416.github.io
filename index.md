@@ -25,10 +25,7 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
   <li class="news-item"><strong>[2025.05]</strong> Our paper <strong>A Review of Human Emotion Synthesis Based on Generative Technology</strong> is accepted by <strong><a href="https://xplorestaging.ieee.org/xpl/RecentIssue.jsp?punumber=5165369">IEEE Transactions on Affective Computing</a></strong> (IF=9.6).</li>
 </ul>
 <details class="news-more">
-  <summary class="news-toggle">
-    <span class="news-toggle-more">Show more</span>
-    <span class="news-toggle-less">Show less</span>
-  </summary>
+  <summary class="news-toggle">Show more</summary>
   <ul class="news-list news-list-more">
     <li class="news-item"><strong>[2024.12]</strong> Our paper <strong>PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis</strong> is accepted by <strong><a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a></strong> (CCF-A).</li>
     <li class="news-item"><strong>[2024.10]</strong> Our paper <strong>Generative Technology for Human Emotion Recognition: A Scoping Review</strong> is accepted by <strong><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></strong> (IF=14.8).</li>

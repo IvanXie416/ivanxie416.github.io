@@ -29,20 +29,15 @@
   color: #666666;
 }
 
-.news-toggle-more {
-  display: inline;
+.news-more[open] .news-toggle {
+  font-size: 0;
 }
 
-.news-toggle-less {
-  display: none;
-}
-
-.news-more[open] .news-toggle-more {
-  display: none;
-}
-
-.news-more[open] .news-toggle-less {
-  display: inline;
+.news-more[open] .news-toggle::after {
+  content: "Show less";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #39c;
 }
 
 .news-list-more {
