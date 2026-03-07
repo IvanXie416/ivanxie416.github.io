@@ -7,7 +7,7 @@ permalink: /awards/
 
 ### Internships
 
-- *2025.06 - 2025.10*, [X Square Robot](https://www.x2robot.com/en).
+- *2025.06 - 2025.11*, [X Square Robot](https://www.x2robot.com/en).
 - *2023.12 - 2024.09*, [Guangming Lab](https://www.gml.ac.cn/).
 
 ### Awards
