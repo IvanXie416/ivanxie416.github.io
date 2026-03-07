@@ -71,17 +71,36 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
 
   <div class="selected-pub-item">
     <div class="selected-pub-image-wrap">
-      <span class="selected-pub-badge">IEEE TGRS</span>
-      <img src="/assets/img/selected/hecpg.png" alt="HECPG teaser" class="selected-pub-image">
+      <span class="selected-pub-badge">IEEE RA-L</span>
+      <img src="/assets/img/selected/IFNet.png" alt="IFNet teaser" class="selected-pub-image">
     </div>
     <div class="selected-pub-content">
-      <h3 class="selected-pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10445523">HECPG: Hyperbolic Embedding and Confident Patch-Guided Network for Point Cloud Matching</a></h3>
-      <p class="selected-pub-authors"><strong>Yifan Xie</strong>, Jihua Zhu, Shiqi Li, Naiwen Hu, Pengcheng Shi</p>
-      <p class="selected-pub-venue"><em>IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2024.</em></p>
+      <h3 class="selected-pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10404064">Iterative Feedback Network for Unsupervised Point Cloud Registration</a></h3>
+      <p class="selected-pub-authors"><strong>Yifan Xie</strong>, Boyu Wang, Shiqi Li, Jihua Zhu</p>
+      <p class="selected-pub-venue"><em>IEEE Robotics and Automation Letters (RA-L), 2024.</em></p>
       <div class="selected-pub-links">
-        <a class="selected-pub-btn" href="https://ieeexplore.ieee.org/abstract/document/10445523">PDF</a>
-        <a class="selected-pub-btn" href="https://github.com/IvanXie416/HECPG">Code</a>
+        <a class="selected-pub-btn" href="https://ieeexplore.ieee.org/abstract/document/10404064">PDF</a>
+        <a class="selected-pub-btn" href="https://github.com/IvanXie416/IFNet">Code</a>
       </div>
     </div>
   </div>
+
+  <div class="selected-pub-item">
+    <div class="selected-pub-image-wrap">
+      <span class="selected-pub-badge">IEEE RA-L</span>
+      <img src="/assets/img/selected/CMIGNet.png" alt="IFNet teaser" class="selected-pub-image">
+    </div>
+    <div class="selected-pub-content">
+      <h3 class="selected-pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10313937">Cross-Modal Information-Guided Network Using Contrastive Learning for Point Cloud Registration</a></h3>
+      <p class="selected-pub-authors"><strong>Yifan Xie</strong>, Jihua Zhu, Shiqi Li, Pengcheng Shi</p>
+      <p class="selected-pub-venue"><em>IEEE Robotics and Automation Letters (RA-L), 2024.</em></p>
+      <div class="selected-pub-links">
+        <a class="selected-pub-btn" href="https://ieeexplore.ieee.org/abstract/document/10313937">PDF</a>
+        <a class="selected-pub-btn" href="https://github.com/IvanXie416/CMIGNet">Code</a>
+      </div>
+    </div>
+  </div>
+
+
+
 </div>
