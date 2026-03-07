@@ -17,16 +17,23 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
 
 ## News
 
-<ul class="news-list" data-collapsible="true" data-max-items="5">
+<ul class="news-list">
   <li class="news-item"><strong>[2025.09]</strong> Our paper <strong>Universal Visuo-Tactile Video Understanding for Embodied Interaction</strong> is accepted by <strong><a href="https://neurips.cc/">NeurIPS 2025</a></strong> (CCF-A).</li>
   <li class="news-item"><strong>[2025.06]</strong> Two papers are accepted by <strong><a href="https://iros25.org/">IROS 2025</a></strong>.</li>
   <li class="news-item"><strong>[2025.06]</strong> My master's thesis is awarded as the <strong>Outstanding Master's Thesis of Xi'an Jiaotong University</strong>.</li>
   <li class="news-item"><strong>[2025.06]</strong> I obtain my master's degree from <strong>Xi'an Jiaotong University</strong>.</li>
   <li class="news-item"><strong>[2025.05]</strong> Our paper <strong>A Review of Human Emotion Synthesis Based on Generative Technology</strong> is accepted by <strong><a href="https://xplorestaging.ieee.org/xpl/RecentIssue.jsp?punumber=5165369">IEEE Transactions on Affective Computing</a></strong> (IF=9.6).</li>
-  <li class="news-item news-hidden"><strong>[2024.12]</strong> Our paper <strong>PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis</strong> is accepted by <strong><a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a></strong> (CCF-A).</li>
-  <li class="news-item news-hidden"><strong>[2024.10]</strong> Our paper <strong>Generative Technology for Human Emotion Recognition: A Scoping Review</strong> is accepted by <strong><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></strong> (IF=14.8).</li>
 </ul>
-<a class="news-toggle" href="#" aria-expanded="false">Show more</a>
+<details class="news-more">
+  <summary class="news-toggle">
+    <span class="news-toggle-more">Show more</span>
+    <span class="news-toggle-less">Show less</span>
+  </summary>
+  <ul class="news-list news-list-more">
+    <li class="news-item"><strong>[2024.12]</strong> Our paper <strong>PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis</strong> is accepted by <strong><a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a></strong> (CCF-A).</li>
+    <li class="news-item"><strong>[2024.10]</strong> Our paper <strong>Generative Technology for Human Emotion Recognition: A Scoping Review</strong> is accepted by <strong><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></strong> (IF=14.8).</li>
+  </ul>
+</details>
 
 
 ## Selected Publications and Preprints

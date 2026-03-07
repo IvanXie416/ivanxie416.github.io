@@ -6,19 +6,45 @@
   margin-bottom: 8px;
 }
 
-.news-list .news-item.news-hidden {
-  display: none;
+.news-more {
+  margin: 0 0 18px 24px;
 }
 
 .news-toggle {
   display: inline-block;
-  margin: 0 0 18px 24px;
   font-size: 1rem;
   font-weight: 500;
+  color: #39c;
+  cursor: pointer;
+  list-style: none;
+}
+
+.news-toggle::-webkit-details-marker {
+  display: none;
 }
 
 .news-toggle::before {
   content: "\2022";
   margin-right: 10px;
   color: #666666;
+}
+
+.news-toggle-more {
+  display: inline;
+}
+
+.news-toggle-less {
+  display: none;
+}
+
+.news-more[open] .news-toggle-more {
+  display: none;
+}
+
+.news-more[open] .news-toggle-less {
+  display: inline;
+}
+
+.news-list-more {
+  margin: 8px 0 0 0;
 }
