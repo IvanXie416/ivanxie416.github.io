@@ -49,7 +49,7 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
         <a class="selected-pub-btn" href="https://arxiv.org/pdf/2505.22566">PDF</a>
         <a class="selected-pub-btn" href="https://github.com/IvanXie416/VTV-LLM">Code</a>
       </div>
-      <p class="selected-pub-note">Highlight</p>
+      <!-- <p class="selected-pub-note">Highlight</p> -->
     </div>
   </div>
 
