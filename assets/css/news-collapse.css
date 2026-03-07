@@ -41,5 +41,10 @@
 }
 
 .news-list-more {
-  margin: 8px 0 0 0;
+  display: none;
+  margin: 0 0 8px 0;
+}
+
+.news-more[open] + .news-list-more {
+  display: block;
 }
