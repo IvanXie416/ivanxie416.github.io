@@ -39,6 +39,24 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
   <div class="selected-pub-item">
     <div class="selected-pub-image-wrap">
       <span class="selected-pub-badge">NeurIPS</span>
+      <img src="/assets/img/selected/MoT-HRA.png" alt="MoT-HRA teaser" class="selected-pub-image">
+    </div>
+    <div class="selected-pub-content">
+      <h3 class="selected-pub-title"><a href="https://arxiv.org/pdf/2604.24681">Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation</a></h3>
+      <p class="selected-pub-authors"><strong>Yifan Xie</strong>, YuAn Wang, Guangyu Chen, Jinkun Liu, Yu Sun, Wenbo Ding</p>
+      <p class="selected-pub-venue"><em>arXiv, 2026.</em></p>
+      <div class="selected-pub-links">
+        <a class="selected-pub-btn" href="https://arxiv.org/pdf/2604.24681">PDF</a>
+        <!-- <a class="selected-pub-btn" href="https://github.com/IvanXie416/VTV-LLM">Code</a> -->
+      </div>
+      <!-- <p class="selected-pub-note">Highlight</p> -->
+    </div>
+  </div>
+
+<div class="selected-publications">
+  <div class="selected-pub-item">
+    <div class="selected-pub-image-wrap">
+      <span class="selected-pub-badge">NeurIPS</span>
       <img src="/assets/img/selected/vtvllm.png" alt="VTV-LLM teaser" class="selected-pub-image">
     </div>
     <div class="selected-pub-content">
