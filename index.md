@@ -38,7 +38,7 @@ Previously, I obtained my Master's degree from [Xi'an Jiaotong University](https
 <div class="selected-publications">
   <div class="selected-pub-item">
     <div class="selected-pub-image-wrap">
-      <span class="selected-pub-badge">NeurIPS</span>
+      <span class="selected-pub-badge">arXiv</span>
       <img src="/assets/img/selected/MoT-HRA.png" alt="MoT-HRA teaser" class="selected-pub-image">
     </div>
     <div class="selected-pub-content">
