@@ -24,7 +24,9 @@
   display: block;
   width: 100%;
   height: 118px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
 }
 
 .selected-pub-badge {
