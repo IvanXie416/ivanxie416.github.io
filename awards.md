@@ -7,7 +7,7 @@ permalink: /awards/
 
 ### Internships
 - *2026.05 - now*, [Xiaomi Robotics](https://robotics.xiaomi.com/index.html).
-- *2025.12 - 2026.05*, [ByteDance](https://www.bytedance.com/en/).
+- *2025.12 - 2026.05*, [ByteDance Seed](https://seed.bytedance.com/en/).
 - *2025.06 - 2025.11*, [X Square Robot](https://www.x2robot.com/en).
 - *2023.12 - 2024.12*, [Guangming Lab](https://www.gml.ac.cn/).
 
