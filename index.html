@@ -128,12 +128,10 @@
           </tr>
         </tbody></table>
         
-		<table id="publications" class="publications-table page-section" style="width:100%;border:0px;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		<section id="publications" class="page-section">
           <heading>Publications</heading>
     <br>
-   <!-- <p>† Equal contribution. * Corresponding author. The leading papers are <span style="background-color: #FFFEE0;">highlighted</span>.</p> -->
-   <p>† Equal contribution. * Corresponding author or Project Lead.</p>
-   <!-- <p>The entries below are fictional examples. Replace them with your publications and update your <a href="#">Google Scholar</a> link.</p> -->
+   <p>† Equal contribution.</p>
           
           <!-- Research Interests Tag Filter -->
           <style>
@@ -202,6 +200,57 @@
             }
             .publications-table tr[data-tags][style*="lightyellow"] > td {
               background: lightyellow;
+            }
+
+            .publication-image {
+              padding: 20px;
+              width: 30%;
+              vertical-align: middle;
+            }
+            .publication-image img {
+              display: block;
+              width: 100%;
+              max-width: 190px;
+              height: auto;
+              margin: auto;
+            }
+            .publication-details {
+              padding: 20px;
+              width: 70%;
+              vertical-align: middle;
+            }
+            .publication-author-list {
+              margin: 8px 0;
+              line-height: 1.5;
+            }
+            .publication-venue {
+              margin: 8px 0;
+            }
+            .publication-links {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 8px;
+              margin-top: 10px;
+            }
+            .publication-links a {
+              display: inline-block;
+              padding: 4px 12px;
+              border: 1px solid rgba(17, 17, 17, 0.18);
+              border-radius: 16px;
+              background: rgba(251, 165, 36, 0.06);
+              color: #6e3519;
+              font-size: 13px;
+            }
+            .publication-links a:hover,
+            .publication-links a:focus-visible {
+              background: rgba(251, 165, 36, 0.14);
+              border-color: #ad7020;
+            }
+            @media (max-width: 600px) {
+              .publication-image,
+              .publication-details {
+                padding: 12px;
+              }
             }
 
             /* 自定义复制提示框样式 */
@@ -308,377 +357,145 @@
             
           </script>
 
-	          <tr data-tags="medical">
-	            <td style="padding:20px;width:30%;vertical-align:middle">
-	              <div class="one">
-	                <div class="two" id="rarelens_image">
-	                  <br>
-	                  <img src="images/paper/rarelens.png" width="190" alt="RareLens clinical workflow">
-	                </div>
-	                <br>
-	                <img src="images/paper/rarelens.png" width="190" alt="RareLens clinical workflow">
-	                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/geteff1/RareLens?style=flat-square&color=yellow&label=stars&logo=GitHub">
-	              </div>
-	              <script type="text/javascript">
-	                function rarelens_start() {
-	                  document.getElementById('rarelens_image').style.opacity = "1";
-	                }
-	                function rarelens_stop() {
-	                  document.getElementById('rarelens_image').style.opacity = "0";
-	                }
-	                rarelens_stop()
-	              </script>
-	            </td>
-	            <td style="padding:20px;width:70%;vertical-align:middle">
-					<a href="https://arxiv.org/pdf/2607.23290">
-	              <papertitle>OpenLens: Interpretable Multimodal Assistants for Community Science</papertitle>
-					</a>
-	              <br>
-	              <a:focus>Xi Chen</a:focus>,
-	              <a:focus>Hongru Zhou</a:focus>,
-	              <a:focus>Shiyu Feng</a:focus>,
-	              <a:focus>Hanyu Zhou</a:focus>,
-	              <a:focus>Huahui Yi</a:focus>,
-	              <a:focus><strong>Alex Morgan</strong></a:focus>,
-	              <a:focus>Tiancheng He</a:focus>,
-	              <a:focus>Kun Wang</a:focus>,
-	              <a:focus>Pingping Liu</a:focus>,
-	              <a:focus>Qiankun Li</a:focus>,
-	              <a:focus>Sicheng Lin</a:focus>,
-	              <a:focus>Huiying Ou</a:focus>,
-	              <a:focus>Xiaohong Zheng</a:focus>,
-	              <a:focus>Tianying Zang</a:focus>,
-	              <a:focus>Zhuohang Wu</a:focus>,
-	              <a:focus>Leheng Jiang</a:focus>,
-	              <a:focus>Kexin Cao</a:focus>,
-	              <a:focus>Wenhan Zhang</a:focus>,
-	              <a:focus>ChengYi Li</a:focus>,
-	              <a:focus>Zhiyang Wang</a:focus>,
-	              <a:focus>Songlin Li</a:focus>,
-	              <a:focus>Benyou Wang</a:focus>,
-	              <a:focus>Ningbei Yin</a:focus>,
-	              <a:focus>Shaoting Zhang</a:focus>,
-	              <a:focus>Weili Fu*</a:focus>,
-	              <a:focus>Jian Li*</a:focus>,
-	              <a:focus>Kang Li*</a:focus>
-	              <br>
-	              <a href="http://rarelens.org/">Homepage</a>
-	              /
-	              <a href="https://eval.rarelens.org/">Human Evaluation</a>
-	              /
-	              <a href="https://github.com/geteff1/RareLens">Code</a>
-				  /
-              	  <a href="https://arxiv.org/abs/2607.23290">Paper</a>
-	              <br>
-	              <em><strong>Preprint</strong></em>
-	              <p></p>
-	              <p>
-	              RareLens provides trustworthy, actionable decision support across the full rare-disease care pathway, from early risk screening and diagnosis to treatment, efficacy evaluation, and prognosis.
-	            </td>
-	          </tr>
-
-	          <tr data-tags="benchmark">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gamecraft_image'>
-                  <br>
-                  <img src='images/paper/gamecraft-bench.png' width="190"></div>
-                  <br>
-                  <img src='images/paper/gamecraft-bench.png' width="190">
-                  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FreedomIntelligence/gamecraft-bench?style=flat-square&color=yellow&label=stars&logo=GitHub">
-                </div>
-              <script type="text/javascript">
-                function gamecraft_start() {
-                  document.getElementById('gamecraft_image').style.opacity = "1";
-                }
-                function gamecraft_stop() {
-                  document.getElementById('gamecraft_image').style.opacity = "0";
-                }
-                gamecraft_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2606.17861">
-                <papertitle>StudioBench: Evaluating Creative Agents in Interactive Environments</papertitle>
-              </a>
-              <br>
-              <a:focus>Tongxu Luo†</a:focus>,
-              <a:focus><strong>Alex Morgan†</strong></a:focus>,
-              <a:focus>Jiaxi Bi†</a:focus>,
-              <a:focus>Chenming Xu†</a:focus>,
-              <a:focus>Zhengyang Tang†</a:focus>,
-              <a:focus>Jianlong Chen</a:focus>,
-              <a:focus>Juhao Liang</a:focus>,
-              <a:focus>Ke Ji</a:focus>,
-              <a:focus>Shuqi Guo</a:focus>,
-              <a:focus>Yuhao Du</a:focus>,
-              <a:focus>Fan Bu</a:focus>,
-              <a:focus>Wenyu Du</a:focus>,
-              <a:focus>Xiaotong Zhang</a:focus>,
-              <a:focus>Kyle Li</a:focus>,
-              <a:focus>Shaobo Wang</a:focus>,
-              <a:focus>Linfeng Zhang</a:focus>,
-              <a:focus>Yuxuan Liu</a:focus>,
-              <a:focus>Xin Lai</a:focus>,
-              <a:focus>Chenxin Li</a:focus>,
-              <a:focus>Yiduo Guo</a:focus>,
-              <a:focus>Zhexin Zhang</a:focus>,
-              <a:focus>Xinyuan Wang</a:focus>,
-              <a:focus>Tianyi Bai</a:focus>,
-              <a:focus>Ziniu Li</a:focus>,
-              <a:focus>Benyou Wang*</a:focus>
-              <br>
-              <a href="https://tongxuluo.github.io/gamecraft-bench-website/">Homepage</a>&nbsp;/&nbsp;<a href="https://github.com/FreedomIntelligence/gamecraft-bench">Code</a>&nbsp;/&nbsp;<a href="https://arxiv.org/abs/2606.17861">Paper</a>
-              <br>
-              <em><strong>Preprint</strong></em>
-              <p></p>
-              <p>
-              GameCraft-Bench evaluates whether agents can build playable games end-to-end in a real game engine.
+          <table class="publications-table" style="width:100%;border:0;border-spacing:0 16px;border-collapse:separate;table-layout:fixed;">
+            <tbody>
+            <tr data-tags="robot-free">
+              <td class="publication-image">
+                <img src="images/paper/XR-1.png" alt="Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories" width="190" loading="lazy">
               </td>
-          </tr>
-
-		<tr style="background-color: lightyellow;" data-tags="world-model">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='malle_image'>
-                  <br>
-                  <img src='images/paper/microverse.png' width="160"></div>
-                  <br>
-                  <img src='images/paper/microverse.png' width="160">
-                  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FreedomIntelligence/MicroVerse?style=flat-square&color=yellow&label=stars&logo=GitHub">
+              <td class="publication-details">
+                <papertitle>Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories</papertitle>
+                <p class="publication-author-list">Xiaomi Robotics Team</p>
+                <p class="publication-venue"><em><strong>Technical Report</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html">Homepage</a>
+                  <a href="https://arxiv.org/abs/2607.15330">Paper</a>
                 </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2603.00585">
-                <papertitle>TinyWorlds: Learning Robust Policies in Compact Simulated Environments</papertitle>
-              </a>
-              <br>
-              <a:focus><strong>Alex Morgan†</strong></a:focus>,
-              <a:focus>Minghao Wu†</a:focus>,
-              <a:focus>Hongru Zhou</a:focus>,
-              <a:focus>Zhihan Yu</a:focus>,
-              <a:focus>Zhenyang Cai</a:focus>,
-			  <a:focus>Junying Chen</a:focus>,
-              <a:focus>Benyou Wang*</a:focus>
-              <br>
-              <a href="https://github.com/FreedomIntelligence/MicroVerse">Code</a>
-              /
-              <a href="https://arxiv.org/abs/2603.00585">Paper</a>
-              <br>
-			  <span style="color: red;"><em><strong>ICLR 2026 (Poster)</strong></em></span>
-              <p></p>
-              <p>
-              MicroVerse is a world model designed to faithfully simulate biological processes at the microscale.
               </td>
-          </tr>
-                    
-	          <tr style="background-color: lightyellow;" data-tags="multimodal-gen,medical">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='malle_image'>
-                  <br>
-                  <img src='images/paper/medgen.png' width="160"></div>
-                  <br>
-                  <img src='images/paper/medgen.png' width="160">
-                  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FreedomIntelligence/MedGen?style=flat-square&color=yellow&label=stars&logo=GitHub">
+            </tr>
+
+            <tr data-tags="robot-free">
+              <td class="publication-image">
+                <img src="images/paper/MoT-HRA.png" alt="Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation</papertitle>
+                <p class="publication-author-list"><strong>Yifan Xie</strong>, YuAn Wang, Guangyu Chen, Jinkun Liu, Yu Sun, Wenbo Ding</p>
+                <p class="publication-venue"><em><strong>NeurIPS 2026</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2604.24681">Homepage</a>
+                  <a href="https://arxiv.org/abs/2604.24681">Paper</a>
                 </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2507.05675">
-                <papertitle>FrameWeaver: Controllable Video Generation with Structured Annotations</papertitle>
-              </a>
-              <br>
-              <a:focus><strong>Alex Morgan†</strong></a:focus>,
-              <a:focus>Junying Chen†</a:focus>,
-              <a:focus>Ke Ji</a:focus>,
-              <a:focus>Zhenyang Cai</a:focus>,
-              <a:focus>Shunian Chen</a:focus>,
-              <a:focus>Benyou Wang*</a:focus>
-              <br>
-              <a href="https://github.com/FreedomIntelligence/MedGen">Code</a>
-              /
-              <a href="https://arxiv.org/abs/2507.05675">Paper</a>
-              /
-              <a href="https://huggingface.co/datasets/FreedomIntelligence/MedVideoCap-55K">Dataset</a>
-			  /
-              <a href="https://huggingface.co/FreedomIntelligence/MedGen-14B">Model</a>
-              <br>
-              <em><strong>Preprint</strong></em>
-              <p></p>
-              <p>
-              MedGen is a medical video generation model, built on the large-scale, caption-rich MedVideoCap-55K dataset.
               </td>
-          </tr>
+            </tr>
 
-	          <tr data-tags="mllm,medical">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='malle_image'>
-                  <br>
-                  <img src='images/paper/med-mat.png' width="190"></div>
-                  <br>
-                  <img src='images/paper/med-mat.png' width="190">
-                  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FreedomIntelligence/Med-MAT?style=flat-square&color=yellow&label=stars&logo=GitHub">
+            <tr data-tags="robot-free">
+              <td class="publication-image">
+                <img src="images/paper/geolam.png" alt="GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos</papertitle>
+                <p class="publication-author-list"><strong>Yifan Xie</strong>, Hekun Tian, Jinkun Liu, YuAn Wang, Qiao Sun, Wenbo Ding</p>
+                <p class="publication-venue"><em><strong>Preprint</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://github.com/IvanXie416/GeoLAM">Homepage</a>
+                  <a href="https://arxiv.org/abs/2609.17099">Paper</a>
                 </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://aclanthology.org/2025.acl-long.639.pdf">
-                <papertitle>Compositional Generalization in Multimodal Scientific Reasoning</papertitle>
-              </a>
-              <br>
-              <a:focus>Zhenyang Cai†</a:focus>,
-              <a:focus>Junying Chen†</a:focus>,
-              <a:focus><strong>Alex Morgan†</strong></a:focus>,
-              <a:focus>Weilong Wang</a:focus>,
-              <a:focus>Yonglin Deng</a:focus>,
-              <a:focus>Dingjie Song</a:focus>,
-              <a:focus>Yize Chen</a:focus>,
-              <a:focus>Zixu Zhang</a:focus>,
-              <a:focus>Benyou Wang*</a:focus>
-              <br>
-              <a href="https://github.com/FreedomIntelligence/Med-MAT">Code</a>
-              /
-              <a href="https://aclanthology.org/2025.acl-long.639.pdf">Paper</a>
-              /
-              <a href="https://huggingface.co/datasets/FreedomIntelligence/Med-MAT">Dataset</a>
-              <br>
-              <span style="color: red;"><em><strong>ACL 2025 (Main)</strong></em></span>
-              <p></p>
-              <p>
-              Multimodal LLMs achieve strong generalization in medical imaging largely through compositional generalization (CG).
               </td>
-          </tr>
+            </tr>
 
+            <tr data-tags="tactile-perception">
+              <td class="publication-image">
+                <img src="images/paper/vtvllm.png" alt="Universal Visuo-Tactile Video Understanding for Embodied Interaction" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>Universal Visuo-Tactile Video Understanding for Embodied Interaction</papertitle>
+                <p class="publication-author-list"><strong>Yifan Xie</strong>, Mingyang Li, Shoujie Li, Xingting Li, Guangyu Chen, Fei Ma, Fei Richard Yu, Wenbo Ding</p>
+                <p class="publication-venue"><em><strong>NeurIPS 2025</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://github.com/IvanXie416/VTV-LLM">Homepage</a>
+                  <a href="https://arxiv.org/abs/2505.22566">Paper</a>
+                </div>
+              </td>
+            </tr>
 
-	        </tbody></table>
-	        <script>
-	          (function() {
-	            var rows = document.querySelectorAll('.publications-table tr[data-tags]');
+            <tr data-tags="tactile-perception">
+              <td class="publication-image">
+                <img src="images/paper/M2-Resi.png" alt="Master Micro Residual Correction with Adaptive Tactile Fusion and Force-Mixed Control for Contact-Rich Manipulation" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>Master Micro Residual Correction with Adaptive Tactile Fusion and Force-Mixed Control for Contact-Rich Manipulation</papertitle>
+                <p class="publication-author-list">Xingting Li†, <strong>Yifan Xie†</strong>, Han Liu, Wei Hou, Guangyu Chen, Shoujie Li, Wenbo Ding</p>
+                <p class="publication-venue"><em><strong>IEEE RA-L</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2603.15152">Homepage</a>
+                  <a href="https://arxiv.org/abs/2603.15152">Paper</a>
+                </div>
+              </td>
+            </tr>
 
-	            rows.forEach(function(row, index) {
-	              var title = row.querySelector('papertitle');
-	              if (!title) return;
+            <tr data-tags="tactile-perception">
+              <td class="publication-image">
+                <img src="images/paper/tacauchy.png" alt="TaCauchy: An Extensible FEM Framework for Vision-Based Tactile Simulation" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>TaCauchy: An Extensible FEM Framework for Vision-Based Tactile Simulation</papertitle>
+                <p class="publication-author-list">Hengfei Zhao†, <strong>Yifan Xie†</strong>, Junhao Gong, Yue Sun, Kai Zhu, Weihua He, Shoujie Li, Haohuan Fu, Wenbo Ding</p>
+                <p class="publication-venue"><em><strong>IROS 2026</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://github.com/figsama/TaCauchy/tree/main/">Homepage</a>
+                  <a href="https://arxiv.org/abs/2606.20426">Paper</a>
+                </div>
+              </td>
+            </tr>
 
-	              var titleContainer = title.closest('a') || title;
-	              var firstBreak = titleContainer.nextElementSibling;
-	              if (!firstBreak || firstBreak.tagName !== 'BR') return;
+            <tr data-tags="3d-vision">
+              <td class="publication-image">
+                <img src="images/paper/pointtalk.png" alt="PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>PointTalk: Audio-Driven Dynamic Lip Point Cloud for 3D Gaussian-based Talking Head Synthesis</papertitle>
+                <p class="publication-author-list"><strong>Yifan Xie</strong>, Tao Feng, Xin Zhang, Xiangyang Luo, Zixuan Guo, Weijiang Yu, Heng Chang, Fei Ma, Fei Richard Yu</p>
+                <p class="publication-venue"><em><strong>AAAI 2025</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://arxiv.org/abs/2412.08504">Homepage</a>
+                  <a href="https://arxiv.org/abs/2412.08504">Paper</a>
+                </div>
+              </td>
+            </tr>
 
-	              var lastBreak = firstBreak.nextElementSibling;
-	              while (lastBreak && lastBreak.tagName !== 'BR') {
-	                lastBreak = lastBreak.nextElementSibling;
-	              }
-	              if (!lastBreak) return;
+            <tr data-tags="3d-vision">
+              <td class="publication-image">
+                <img src="images/paper/IFNet.png" alt="Iterative Feedback Network for Unsupervised Point Cloud Registration" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>Iterative Feedback Network for Unsupervised Point Cloud Registration</papertitle>
+                <p class="publication-author-list"><strong>Yifan Xie</strong>, Boyu Wang, Shiqi Li, Jihua Zhu</p>
+                <p class="publication-venue"><em><strong>IEEE RA-L 2024</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://github.com/IvanXie416/IFNet">Homepage</a>
+                  <a href="https://arxiv.org/abs/2401.04357">Paper</a>
+                </div>
+              </td>
+            </tr>
 
-	              var authorNodes = [];
-	              var node = firstBreak.nextSibling;
-	              while (node && node !== lastBreak) {
-	                authorNodes.push(node);
-	                node = node.nextSibling;
-	              }
-
-	              var shell = document.createElement('div');
-	              shell.className = 'publication-authors-shell';
-	              var authors = document.createElement('div');
-	              authors.className = 'publication-authors';
-	              authors.id = 'publication-authors-' + index;
-	              authorNodes.forEach(function(authorNode) {
-	                authors.appendChild(authorNode);
-	              });
-
-	              var toggle = document.createElement('button');
-	              toggle.type = 'button';
-	              toggle.className = 'publication-authors-toggle';
-	              toggle.textContent = '▶';
-	              toggle.setAttribute('aria-controls', authors.id);
-	              toggle.setAttribute('aria-expanded', 'false');
-	              toggle.setAttribute('aria-label', 'Expand author list');
-	              toggle.title = 'Expand author list';
-
-	              shell.appendChild(authors);
-	              shell.appendChild(toggle);
-	              firstBreak.parentNode.insertBefore(shell, firstBreak);
-	              firstBreak.remove();
-	              lastBreak.remove();
-
-	              toggle.addEventListener('click', function() {
-	                var expanded = shell.classList.toggle('expanded');
-	                toggle.textContent = expanded ? '▼' : '▶';
-	                toggle.setAttribute('aria-expanded', String(expanded));
-	                toggle.setAttribute('aria-label', expanded ? 'Collapse author list' : 'Expand author list');
-	                toggle.title = expanded ? 'Collapse author list' : 'Expand author list';
-	              });
-	            });
-
-	            function updateAuthorToggles() {
-	              document.querySelectorAll('.publication-authors-shell').forEach(function(shell) {
-	                var authors = shell.querySelector('.publication-authors');
-	                var toggle = shell.querySelector('.publication-authors-toggle');
-	                var wasExpanded = shell.classList.contains('expanded');
-	                if (wasExpanded) shell.classList.remove('expanded');
-	                var hasOverflow = authors.scrollHeight > authors.clientHeight + 1;
-	                if (wasExpanded) shell.classList.add('expanded');
-	                toggle.hidden = !hasOverflow;
-	              });
-	            }
-
-	            updateAuthorToggles();
-
-	            // The publication cards are template examples, so their visible author lists
-	            // and destinations intentionally do not identify real people or projects.
-	            var sampleAuthors = [
-	              '<strong>Alex Morgan</strong>, Jamie Park, Noor Patel, Mira Chen*',
-	              '<strong>Alex Morgan†</strong>, Sam Rivera†, Taylor Kim, Mira Chen*',
-	              '<strong>Alex Morgan†</strong>, Jordan Lee†, Casey Wu, Mira Chen*',
-	              '<strong>Alex Morgan†</strong>, Robin Shah†, Dana Brooks, Mira Chen*',
-	              'Jamie Park†, <strong>Alex Morgan†</strong>, Noor Patel, Mira Chen*'
-	            ];
-	            document.querySelectorAll('.publication-authors').forEach(function(authors, index) {
-	              authors.innerHTML = sampleAuthors[index] || sampleAuthors[0];
-	            });
-	            rows.forEach(function(row) {
-	              row.querySelectorAll('a').forEach(function(link) {
-	                link.href = '#';
-	                link.removeAttribute('target');
-	              });
-	              row.querySelectorAll('img[src*="shields.io"]').forEach(function(badge) {
-	                badge.remove();
-	              });
-	            });
-
-	            var resizeFrame;
-	            window.addEventListener('resize', function() {
-	              cancelAnimationFrame(resizeFrame);
-	              resizeFrame = requestAnimationFrame(updateAuthorToggles);
-	            }, { passive: true });
-	          })();
-	        </script>
+            <tr data-tags="3d-vision">
+              <td class="publication-image">
+                <img src="images/paper/CMIGNet.png" alt="Cross-Modal Information-Guided Network using Contrastive Learning for Point Cloud Registration" width="190" loading="lazy">
+              </td>
+              <td class="publication-details">
+                <papertitle>Cross-Modal Information-Guided Network using Contrastive Learning for Point Cloud Registration</papertitle>
+                <p class="publication-author-list"><strong>Yifan Xie</strong>, Jihua Zhu, Shiqi Li, Pengcheng Shi</p>
+                <p class="publication-venue"><em><strong>IEEE RA-L 2024</strong></em></p>
+                <div class="publication-links">
+                  <a href="https://github.com/IvanXie416/CMIGNet">Homepage</a>
+                  <a href="https://arxiv.org/abs/2311.01202">Paper</a>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </section>
 
 	        <table id="experience" class="page-section" width="100%" align="center" border="0" cellpadding="10"><tbody>
           <br>
