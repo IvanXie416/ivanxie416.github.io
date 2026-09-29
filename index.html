@@ -4,7 +4,7 @@
   <title>Yifan Xie | Personal Homepage Template</title>
   <meta name="author" content="Yifan Xie">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=tsinghua-purple">
   <link rel="icon" type="image/svg+xml" href="images/template/avatar.svg">
   <style>
     body, * {
@@ -146,22 +146,22 @@
               padding: 5px 14px;
               border-radius: 20px;
               border: 1px solid rgba(17, 17, 17, 0.18);
-              background: rgba(251, 165, 36, 0.06);
-              color: #6e3519;
+              background: rgba(var(--theme-rgb), 0.06);
+              color: var(--theme-dark);
               font-size: 13px;
               cursor: pointer;
               transition: all 0.2s;
             }
             .tag-btn:hover {
               border-color: rgba(17, 17, 17, 0.36);
-              background: rgba(251, 165, 36, 0.1);
-              color: #6e3519;
+              background: rgba(var(--theme-rgb), 0.1);
+              color: var(--theme-dark);
             }
             .tag-btn.active {
-              background: #ad7020;
+              background: var(--theme-primary);
               color: #fff;
               border-color: rgba(17, 17, 17, 0.62);
-              box-shadow: 0 2px 8px rgba(173, 112, 32, 0.22);
+              box-shadow: 0 2px 8px rgba(var(--theme-rgb), 0.22);
             }
             .tag-count {
               display: inline-block;
@@ -182,8 +182,8 @@
               color: #fff;
             }
             .tag-btn:not(.active) .tag-count {
-              background: rgba(251, 165, 36, 0.14);
-              color: #6e3519;
+              background: rgba(var(--theme-rgb), 0.14);
+              color: var(--theme-dark);
             }
             .publications-table tr[data-tags] > td {
               border-top: 1px solid rgba(0, 0, 0, 0.14);
@@ -199,7 +199,7 @@
               border-radius: 0 8px 8px 0;
             }
             .publications-table tr[data-tags][style*="lightyellow"] > td {
-              background: lightyellow;
+              background: var(--theme-soft);
             }
 
             .publication-image {
@@ -237,14 +237,14 @@
               padding: 4px 12px;
               border: 1px solid rgba(17, 17, 17, 0.18);
               border-radius: 16px;
-              background: rgba(251, 165, 36, 0.06);
-              color: #6e3519;
+              background: rgba(var(--theme-rgb), 0.06);
+              color: var(--theme-dark);
               font-size: 13px;
             }
             .publication-links a:hover,
             .publication-links a:focus-visible {
-              background: rgba(251, 165, 36, 0.14);
-              border-color: #ad7020;
+              background: rgba(var(--theme-rgb), 0.14);
+              border-color: var(--theme-primary);
             }
             @media (max-width: 600px) {
               .publication-image,
